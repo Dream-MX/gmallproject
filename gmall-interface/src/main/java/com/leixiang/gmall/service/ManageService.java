@@ -78,4 +78,17 @@ public interface ManageService {
      * @return
      */
     SpuInfo getSpuInfo(String spuId);
+
+    /**
+     * 保存商品sku信息
+     * @param skuInfo
+     */
+    void saveSkuInfo(SkuInfo skuInfo);
+
+    /**
+     * 根据skuid查询完整sku信息
+     * @param skuId
+     * @return
+     */
+    SkuInfo getSkuInfoById(String skuId);
 }

@@ -20,11 +20,7 @@ import java.util.List;
  */
 @RestController
 @CrossOrigin
-
 public class ManageController {
-
-
-
 
     @Reference
     private ManageService manageService;
